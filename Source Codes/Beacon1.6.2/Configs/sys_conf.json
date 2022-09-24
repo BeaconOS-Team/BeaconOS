@@ -1,0 +1,13 @@
+{
+    "Title": "BeacnOS System Configuration File",
+    "Requirements": "All boolean expressions is required",
+    "internet": false,
+    "init_sound": 20,
+    "first_party_only": true,
+    "third_party_only": false,
+    "signature_check": true,
+    "gui_portal": false,
+    "low_power_warn": false,
+    "easter_eggs": true,
+    "sys_reserved_sig": "B%646174653A3230323230363031322D422D4465762D636C6173733A532D7369676E%E"
+}
