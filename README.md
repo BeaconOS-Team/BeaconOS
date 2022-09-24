@@ -15,3 +15,6 @@ This is the source code of BeaconOS
   Please visit www.beaconos.org and refer to user instructions and quick start hand book. For bug reports or official build(regardless version) that downloaded from the website, please email: ***developer@beaconos.org***
  ## Contribute to This Project
   The memeber of BeaconOS team are looking forward to new member of to our team, please fill out this form and we will contact you as soon as possible: https://forms.office.com/r/7qaKpUy7Zf
+## Credits
+  - BeaconOS had embedded the project: pypa/pip. All of the usages are directed under the MIT License of PIP. 
+  - Link to pypa/pip: https://github.com/pypa/pip.git
