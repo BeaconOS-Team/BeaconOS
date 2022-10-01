@@ -6,8 +6,8 @@ from Messages_Declear import *
 class get:
     def __init__(self,*arg, **kwarg) -> None:
         get.main(*arg, **kwarg)
-    def main(software: str, args: str) -> None:
-        globals()[software](args)
+    def main(software: str, args: str, *kwargs) -> None:
+        globals()[software](args, *kwargs)
 
 def time(timezone: str | None = None):
     tmz = pytz.timezone(timezone)

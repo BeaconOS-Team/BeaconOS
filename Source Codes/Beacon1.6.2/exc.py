@@ -17,7 +17,7 @@ def exc(fileName,tag, flag: str | None = ...):
     try:
         if file_type in python_file:
             global get_path
-            get_path = str(fpath) + "/scripts" + "/" + fileName
+            get_path = str(fpath) + "/" + tag + "/" + fileName
             print("exc: File Executing:", get_path)
             exec(open(get_path).read())
         elif file_type in text_file:
@@ -42,14 +42,12 @@ def exc(fileName,tag, flag: str | None = ...):
             get_path = str(fpath) + "/Applications" + "/" + fileName
             print("exc: Opening Application:", get_path)
             exec(open(get_path).read())
-        elif file_type == ("beval"):
-            Eval_Script_Interpreter.interpreter.Exec(fileName=fileName)
         else:
             print("exc:", Messages_Declear.UnexecutableFile)
     except FileNotFoundError:
             print("exc:", Messages_Declear.CanNotFindFile)
-    except:
-        print("exc:", Messages_Declear.ErrorInFile)   
+    except Exception as e:
+        print("exc:", Messages_Declear.ErrorInFile,e)   
     
 def exc_info():
     print("exc: Run a file")

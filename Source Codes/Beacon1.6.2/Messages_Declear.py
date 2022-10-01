@@ -1,7 +1,7 @@
 # Errors(w/ header "Alert")<-when making gui
 CanNotFindFile = "Cannot Find Target File |0x0000000|" 
 OSLibraryError = "Missing Essencial OS Library |0x0000001|"
-ErrorInFile = "Error Occur while Executing Target File |0x0000002|"
+ErrorInFile = "Error Occur while Executing Target File |0x0000002| ERROR MSG: "
 UserRefusal = "User Refused |0x0000003|"
 CanNotFindCommand = " is not considered as a executable command |0x0000004|" #For Shell
 SignatureVeriFail = "No Valid Signature Provided by Target Application |0x0000005|"
