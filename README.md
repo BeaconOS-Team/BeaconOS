@@ -10,7 +10,7 @@ This is the source code of BeaconOS
   - If the OS did not load after the boot and Buildroot ask for your username and password, use the following:
             - UserName: root
             - No password
-  .After your login action, the OS should load. Otherwise, enter the following command: `cd /etc/profile.d && python3 New_MShell.py`
+  .After your login action, the OS should load. Otherwise, enter the following command: `cd /etc/profile.d && python3 MShell4.py`
 ## Further Support and Help
   Please visit www.beaconos.org and refer to user instructions and quick start hand book. For bug reports or official build(regardless version) that downloaded from the website, please email: ***developer@beaconos.org***
  ## Contribute to This Project
